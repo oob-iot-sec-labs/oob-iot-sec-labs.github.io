@@ -47,7 +47,7 @@ permalink: /
 <p>ChinaGreat-Sec 是一个面向 IOT 网络安全研究者的开放社区，涵盖漏洞研究、安全工具、学习资料及实战 Writeup，致力于推动 IOT 安全领域的知识共享与技术交流。</p>
 
 <h2>🤝 参与贡献</h2>
-<p>欢迎提交 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues">Issue</a> 或 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/pulls">Pull Request</a>！详见 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/blob/main/CONTRIBUTING.md">贡献指南</a>。</p>
+<p>有知识帖想分享？漏洞复现、学习笔记、技术分享、疑问求助……。欢迎发送至<a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues/new?template=vulnerability.yml">chinagreatsec@outlook.com</a> 提交。</p><p>同时欢迎提交 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues">Issue</a> 或 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/pulls">Pull Request</a>！详见 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/blob/main/CONTRIBUTING.md">贡献指南</a>。</p>
 
 <h2>⚠️ 免责声明</h2>
 <p>本站内容仅用于安全研究与教育目的，请勿用于非法用途。</p>
