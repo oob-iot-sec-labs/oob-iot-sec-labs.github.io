@@ -142,3 +142,8 @@ footer {
   color: #555 !important;
   font-size: 0.8em;
 }
+
+/* 移除 hacker 主题自带的 "./ " 前缀 */
+header h1::before {
+  content: "" !important;
+}
