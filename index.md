@@ -8,7 +8,7 @@ permalink: /
 
 <h1>🔐 ChinaGreat-Sec</h1>
 
-<p><strong>IOT 网络安全社区 | IoT Cybersecurity Community</strong></p>
+<p><code>[ IOT 网络安全社区 | IoT Cybersecurity Community ]</code></p>
 
 <p>
   <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ChinaGreat-Sec/ChinaGreat-Sec" alt="License"></a>
@@ -17,8 +17,8 @@ permalink: /
 </p>
 
 <blockquote>
-专注于 IOT 设备安全研究、漏洞挖掘与防御的开放社区<br>
-An open community focused on IoT security research, vulnerability discovery, and defense.
+<code>// 专注于 IOT 设备安全研究、漏洞挖掘与防御的开放社区</code><br>
+<code>// An open community focused on IoT security research &amp; defense.</code>
 </blockquote>
 
 </div>

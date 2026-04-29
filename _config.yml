@@ -2,6 +2,6 @@ title: "ChinaGreat-Sec"
 description: "IOT 网络安全社区 | IoT Cybersecurity Community"
 url: "https://chinagreat-sec.github.io"
 baseurl: "/ChinaGreat-Sec"
-theme: jekyll-theme-slate
+theme: jekyll-theme-hacker
 
 markdown: kramdown
