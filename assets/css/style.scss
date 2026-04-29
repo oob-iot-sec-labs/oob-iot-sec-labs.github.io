@@ -147,3 +147,47 @@ footer {
 header h1::before {
   content: "" !important;
 }
+
+/* body 正文颜色 */
+body { color: #c9d1d9 !important; }
+
+/* 修复 header h1 负 margin，防止标题偏位 */
+header h1 {
+  font-size: 1.5em !important;
+  margin-left: 0 !important;
+}
+
+/* header 副标题（描述）可见性 */
+header h2 {
+  color: #888 !important;
+  font-size: 0.95em !important;
+  font-weight: 300;
+  text-shadow: none !important;
+  letter-spacing: 0;
+}
+
+/* header 标题链接不受全局 a 颜色干扰 */
+#a-title,
+#a-title:hover {
+  color: var(--accent) !important;
+  text-shadow: 0 0 8px var(--accent) !important;
+  text-decoration: none !important;
+}
+
+/* View on GitHub 按钮适配深色主题 */
+#downloads .btn {
+  border: 1px solid var(--border) !important;
+  color: #aaa !important;
+  background: rgba(168,85,247,0.05) !important;
+  border-radius: 4px !important;
+  font-size: 12px;
+  transition: background 0.2s, color 0.2s;
+}
+#downloads .btn:hover {
+  background: rgba(168,85,247,0.15) !important;
+  color: var(--accent) !important;
+}
+#downloads .btn-github .icon {
+  opacity: 0.5;
+  filter: invert(1);
+}
