@@ -1,0 +1,60 @@
+<div class="lang-switcher">
+  <button id="btn-zh" onclick="setLang('zh')" title="切换到中文">中文</button>
+  <span class="sep">|</span>
+  <button id="btn-en" onclick="setLang('en')" title="Switch to English">EN</button>
+</div>
+
+<style>
+.lang-switcher {
+  position: fixed;
+  top: 14px;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(0,0,0,0.7);
+  border: 1px solid #00ff4166;
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-family: 'Courier New', monospace;
+}
+.lang-switcher button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 2px 6px;
+  border-radius: 3px;
+  transition: all 0.2s;
+  color: #555;
+  font-family: inherit;
+}
+.lang-switcher button.active {
+  color: #00ff41;
+  text-shadow: 0 0 6px #00ff41;
+  background: rgba(0,255,65,0.1);
+}
+.lang-switcher button:hover:not(.active) {
+  color: #aaa;
+}
+.lang-switcher .sep { color: #333; font-size: 12px; }
+
+[data-lang] { display: none; }
+</style>
+
+<script>
+function setLang(lang) {
+  document.querySelectorAll('[data-lang]').forEach(function(el) {
+    el.style.display = el.dataset.lang === lang ? '' : 'none';
+  });
+  document.getElementById('btn-zh').classList.toggle('active', lang === 'zh');
+  document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+  localStorage.setItem('cgs-lang', lang);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  var saved = localStorage.getItem('cgs-lang') || 'zh';
+  setLang(saved);
+});
+</script>

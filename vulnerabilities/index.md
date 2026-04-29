@@ -4,26 +4,45 @@ title: 漏洞研究 | Vulnerabilities
 permalink: /vulnerabilities/
 ---
 
-# 🐛 漏洞研究 | Vulnerability Research
+{% include lang-switcher.html %}
 
-专注于 IOT 设备漏洞的发现、分析与披露。
+<div data-lang="zh">
 
----
+<h1>🐛 漏洞研究</h1>
+<p>专注于 IOT 设备漏洞的发现、分析与披露。</p>
 
-## 📂 子模块
+<h2>📂 子模块</h2>
 
-### [CVE 漏洞分析](CVE/)
-收录已公开 CVE 编号的 IOT 设备漏洞分析报告，包含漏洞原理、复现步骤及修复建议。
+<h3><a href="CVE/">CVE 漏洞分析</a></h3>
+<p>收录已公开 CVE 编号的 IOT 设备漏洞分析报告，包含漏洞原理、复现步骤及修复建议。</p>
 
-### [原创研究](research/)
-团队独立挖掘的漏洞研究成果，涵盖路由器、摄像头、智能家居等 IOT 设备。
+<h3><a href="research/">原创研究</a></h3>
+<p>团队独立挖掘的漏洞研究成果，涵盖路由器、摄像头、智能家居等 IOT 设备。</p>
 
----
+<h2>📋 提交漏洞</h2>
+<p>发现新漏洞？欢迎通过 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues/new?template=vulnerability.yml">Issue 模板</a> 提交。</p>
 
-## 📋 提交漏洞
+<p><a href="{{ '/' | relative_url }}">← 返回首页</a></p>
 
-发现新漏洞？欢迎通过 [Issue 模板](https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues/new?template=vulnerability.yml) 提交。
+</div>
 
----
+<div data-lang="en">
 
-[← 返回首页]({{ '/' | relative_url }})
+<h1>🐛 Vulnerability Research</h1>
+<p>Focused on the discovery, analysis, and disclosure of IoT device vulnerabilities.</p>
+
+<h2>📂 Sub-modules</h2>
+
+<h3><a href="CVE/">CVE Analysis</a></h3>
+<p>IoT device vulnerability reports with known CVE IDs, including root cause, reproduction steps, and remediation.</p>
+
+<h3><a href="research/">Original Research</a></h3>
+<p>Vulnerabilities independently discovered by the community across routers, cameras, smart home devices, and more.</p>
+
+<h2>📋 Submit a Vulnerability</h2>
+<p>Found a new vulnerability? Submit via the <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues/new?template=vulnerability.yml">Issue template</a>.</p>
+
+<p><a href="{{ '/' | relative_url }}">← Back to Home</a></p>
+
+</div>
+
