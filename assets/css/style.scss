@@ -31,6 +31,14 @@ h1, h2, h3 {
   letter-spacing: 1px;
 }
 
+/* 四级及以下标题 — 同色系但降低发光强度体现层级 */
+h4, h5, h6 {
+  color: var(--accent) !important;
+  text-shadow: 0 0 4px rgba(168,85,247,0.5);
+  letter-spacing: 0.5px;
+  opacity: 0.88;
+}
+
 /* 链接 */
 a {
   color: var(--accent-dim) !important;
