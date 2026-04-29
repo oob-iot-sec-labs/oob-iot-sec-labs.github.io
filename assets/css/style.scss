@@ -6,40 +6,40 @@
 /* ===== 科技风增强 ===== */
 
 :root {
-  --green: #00ff41;
-  --green-dim: #00cc33;
-  --green-glow: rgba(0, 255, 65, 0.15);
-  --bg: #0d0d0d;
-  --bg-card: #111;
-  --border: #00ff4133;
+  --accent: #a855f7;
+  --accent-dim: #7c3aed;
+  --accent-glow: rgba(168, 85, 247, 0.18);
+  --bg: #0a070f;
+  --bg-card: #100d1a;
+  --border: #a855f733;
 }
 
 /* 全局背景 & 字体 */
 body {
   background-color: var(--bg) !important;
   background-image:
-    linear-gradient(rgba(0,255,65,0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0,255,65,0.03) 1px, transparent 1px);
+    linear-gradient(rgba(168,85,247,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(168,85,247,0.04) 1px, transparent 1px);
   background-size: 40px 40px;
   font-family: 'Courier New', 'Lucida Console', monospace !important;
 }
 
 /* 顶部标题发光 */
 h1, h2, h3 {
-  color: var(--green) !important;
-  text-shadow: 0 0 8px var(--green), 0 0 20px rgba(0,255,65,0.4);
+  color: var(--accent) !important;
+  text-shadow: 0 0 8px var(--accent), 0 0 20px rgba(168,85,247,0.4);
   letter-spacing: 1px;
 }
 
 /* 链接 */
 a {
-  color: var(--green-dim) !important;
+  color: var(--accent-dim) !important;
   text-decoration: none;
   transition: color 0.2s, text-shadow 0.2s;
 }
 a:hover {
-  color: var(--green) !important;
-  text-shadow: 0 0 6px var(--green);
+  color: var(--accent) !important;
+  text-shadow: 0 0 6px var(--accent);
 }
 
 /* 徽章/badge 行 */
@@ -48,9 +48,9 @@ p img[alt] { filter: brightness(1.1); }
 /* 导航卡片科技风 */
 div[style*="border:1px solid #444"] {
   background: var(--bg-card) !important;
-  border: 1px solid var(--green) !important;
+  border: 1px solid var(--accent) !important;
   border-radius: 4px !important;
-  box-shadow: 0 0 12px var(--green-glow), inset 0 0 20px rgba(0,255,65,0.03) !important;
+  box-shadow: 0 0 12px var(--accent-glow), inset 0 0 20px rgba(168,85,247,0.03) !important;
   transition: box-shadow 0.3s, transform 0.2s;
   position: relative;
   overflow: hidden;
@@ -60,11 +60,11 @@ div[style*="border:1px solid #444"]::before {
   position: absolute;
   top: 0; left: -100%;
   width: 60%; height: 2px;
-  background: linear-gradient(90deg, transparent, var(--green), transparent);
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
   animation: scanline 3s linear infinite;
 }
 div[style*="border:1px solid #444"]:hover {
-  box-shadow: 0 0 24px rgba(0,255,65,0.35), inset 0 0 30px rgba(0,255,65,0.06) !important;
+  box-shadow: 0 0 24px rgba(168,85,247,0.35), inset 0 0 30px rgba(168,85,247,0.06) !important;
   transform: translateY(-2px);
 }
 
@@ -75,36 +75,36 @@ div[style*="border:1px solid #444"]:hover {
 
 /* 分割线 */
 hr {
-  border-color: var(--green) !important;
-  box-shadow: 0 0 4px var(--green);
+  border-color: var(--accent) !important;
+  box-shadow: 0 0 4px var(--accent);
   opacity: 0.3;
 }
 
 /* 代码块 */
 pre, code {
-  background: #0a0a0a !important;
+  background: #080510 !important;
   border: 1px solid var(--border) !important;
-  color: var(--green) !important;
-  box-shadow: 0 0 8px var(--green-glow);
+  color: var(--accent) !important;
+  box-shadow: 0 0 8px var(--accent-glow);
 }
 
 /* blockquote */
 blockquote {
-  border-left: 3px solid var(--green) !important;
+  border-left: 3px solid var(--accent) !important;
   color: #aaa !important;
-  background: rgba(0,255,65,0.03);
+  background: rgba(168,85,247,0.04);
   padding: 8px 16px;
 }
 
 /* 表格 */
 table { border-collapse: collapse; width: 100%; }
 th {
-  background: rgba(0,255,65,0.1) !important;
-  color: var(--green) !important;
+  background: rgba(168,85,247,0.1) !important;
+  color: var(--accent) !important;
   border: 1px solid var(--border) !important;
 }
 td { border: 1px solid var(--border) !important; color: #ccc; }
-tr:hover td { background: rgba(0,255,65,0.04); }
+tr:hover td { background: rgba(168,85,247,0.05); }
 
 /* 返回首页图标按钮 */
 .back-home {
@@ -112,10 +112,10 @@ tr:hover td { background: rgba(0,255,65,0.04); }
   align-items: center;
   justify-content: center;
   width: 40px; height: 40px;
-  border: 1px solid #00ff4166;
+  border: 1px solid #a855f766;
   border-radius: 6px;
-  background: rgba(0,255,65,0.05);
-  color: var(--green) !important;
+  background: rgba(168,85,247,0.06);
+  color: var(--accent) !important;
   font-size: 20px;
   text-decoration: none !important;
   margin: 24px 0 8px;
@@ -123,16 +123,16 @@ tr:hover td { background: rgba(0,255,65,0.04); }
   text-shadow: none !important;
 }
 .back-home:hover {
-  background: rgba(0,255,65,0.15) !important;
-  box-shadow: 0 0 10px rgba(0,255,65,0.3);
+  background: rgba(168,85,247,0.18) !important;
+  box-shadow: 0 0 10px rgba(168,85,247,0.4);
   transform: translateY(-2px);
-  text-shadow: 0 0 8px #00ff41 !important;
+  text-shadow: 0 0 8px var(--accent) !important;
 }
 
 /* 页眉 */
 header {
   border-bottom: 1px solid var(--border);
-  background: rgba(0,0,0,0.8) !important;
+  background: rgba(0,0,0,0.85) !important;
 }
 header h1 { font-size: 1.4em; }
 
