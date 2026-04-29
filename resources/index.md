@@ -32,7 +32,7 @@ permalink: /resources/
 | Hack The Box | 实战靶机 | [链接](https://www.hackthebox.com/) |
 | Exploit.Education | 漏洞利用入门 | [链接](https://exploit.education/) |
 
-<p><a href="{{ '/' | relative_url }}">← 返回首页</a></p>
+<a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>
 
 </div>
 
@@ -64,9 +64,10 @@ permalink: /resources/
 | Hack The Box | Practice Labs | [Link](https://www.hackthebox.com/) |
 | Exploit.Education | Exploitation Basics | [Link](https://exploit.education/) |
 
-<p><a href="{{ '/' | relative_url }}">← Back to Home</a></p>
+<a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>
 
 </div>
 
 {% include lang-switcher.html %}
+
 

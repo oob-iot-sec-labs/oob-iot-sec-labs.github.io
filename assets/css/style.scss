@@ -106,8 +106,28 @@ th {
 td { border: 1px solid var(--border) !important; color: #ccc; }
 tr:hover td { background: rgba(0,255,65,0.04); }
 
-/* wrapper 宽度 */
-.wrapper { max-width: 960px; }
+/* 返回首页图标按钮 */
+.back-home {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; height: 40px;
+  border: 1px solid #00ff4166;
+  border-radius: 6px;
+  background: rgba(0,255,65,0.05);
+  color: var(--green) !important;
+  font-size: 20px;
+  text-decoration: none !important;
+  margin: 24px 0 8px;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+  text-shadow: none !important;
+}
+.back-home:hover {
+  background: rgba(0,255,65,0.15) !important;
+  box-shadow: 0 0 10px rgba(0,255,65,0.3);
+  transform: translateY(-2px);
+  text-shadow: 0 0 8px #00ff41 !important;
+}
 
 /* 页眉 */
 header {

@@ -26,7 +26,7 @@ permalink: /tools/
 <h2>📋 推荐工具</h2>
 <p>发现好用的工具？欢迎通过 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues/new?template=tool.yml">Issue 模板</a> 推荐。</p>
 
-<p><a href="{{ '/' | relative_url }}">← 返回首页</a></p>
+<a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>
 
 </div>
 
@@ -52,9 +52,10 @@ permalink: /tools/
 <h2>📋 Recommend a Tool</h2>
 <p>Found a useful tool? Submit via the <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues/new?template=tool.yml">Issue template</a>.</p>
 
-<p><a href="{{ '/' | relative_url }}">← Back to Home</a></p>
+<a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>
 
 </div>
 
 {% include lang-switcher.html %}
+
 

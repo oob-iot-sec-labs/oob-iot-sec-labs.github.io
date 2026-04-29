@@ -20,7 +20,7 @@ permalink: /vulnerabilities/
 <h2>📋 提交漏洞</h2>
 <p>发现新漏洞？欢迎通过 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues/new?template=vulnerability.yml">Issue 模板</a> 提交。</p>
 
-<p><a href="{{ '/' | relative_url }}">← 返回首页</a></p>
+<a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>
 
 </div>
 
@@ -40,9 +40,10 @@ permalink: /vulnerabilities/
 <h2>📋 Submit a Vulnerability</h2>
 <p>Found a new vulnerability? Submit via the <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues/new?template=vulnerability.yml">Issue template</a>.</p>
 
-<p><a href="{{ '/' | relative_url }}">← Back to Home</a></p>
+<a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>
 
 </div>
 
 {% include lang-switcher.html %}
+
 

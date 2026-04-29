@@ -29,7 +29,7 @@ permalink: /writeups/
 2. 创建 `README.md` 按上述规范编写
 3. 提交 Pull Request
 
-<p><a href="{{ '/' | relative_url }}">← 返回首页</a></p>
+<a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>
 
 </div>
 
@@ -58,9 +58,10 @@ Each writeup should include:
 2. Add a `README.md` following the guidelines above
 3. Open a Pull Request
 
-<p><a href="{{ '/' | relative_url }}">← Back to Home</a></p>
+<a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>
 
 </div>
 
 {% include lang-switcher.html %}
+
 
