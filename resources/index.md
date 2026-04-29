@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 学习资料 | Resources
+permalink: /resources/
 ---
 
 # 📚 学习资料 | Learning Resources
@@ -34,4 +35,4 @@ IOT 安全领域顶会（CCS、USENIX、S&P、NDSS）精选论文。
 
 ---
 
-[← 返回首页](../)
+[← 返回首页]({{ '/' | relative_url }})

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 实战记录 | Writeups
+permalink: /writeups/
 ---
 
 # 📝 实战记录 | Writeups
@@ -35,4 +36,4 @@ title: 实战记录 | Writeups
 
 ---
 
-[← 返回首页](../)
+[← 返回首页]({{ '/' | relative_url }})

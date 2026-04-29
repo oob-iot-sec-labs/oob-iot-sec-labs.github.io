@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 安全工具 | Tools
+permalink: /tools/
 ---
 
 # 🔧 安全工具 | Security Tools
@@ -35,4 +36,4 @@ IOT 设备安全加固、流量监控、威胁检测工具。
 
 ---
 
-[← 返回首页](../)
+[← 返回首页]({{ '/' | relative_url }})

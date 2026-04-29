@@ -1,19 +1,7 @@
 title: "ChinaGreat-Sec"
 description: "IOT 网络安全社区 | IoT Cybersecurity Community"
+url: "https://chinagreat-sec.github.io"
+baseurl: "/ChinaGreat-Sec"
 theme: jekyll-theme-slate
-
-header_pages:
-  - index.md
-  - vulnerabilities/index.md
-  - tools/index.md
-  - resources/index.md
-  - writeups/index.md
-
-plugins:
-  - jekyll-relative-links
-
-relative_links:
-  enabled: true
-  collections: true
 
 markdown: kramdown

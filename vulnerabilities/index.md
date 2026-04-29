@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 漏洞研究 | Vulnerabilities
+permalink: /vulnerabilities/
 ---
 
 # 🐛 漏洞研究 | Vulnerability Research
@@ -25,4 +26,4 @@ title: 漏洞研究 | Vulnerabilities
 
 ---
 
-[← 返回首页](../)
+[← 返回首页]({{ '/' | relative_url }})

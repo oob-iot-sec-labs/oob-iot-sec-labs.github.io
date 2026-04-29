@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 首页 | Home
-nav_order: 1
+permalink: /
 ---
 
 <div align="center">
@@ -32,25 +32,25 @@ An open community focused on IoT security research, vulnerability discovery, and
 <div style="flex:1; min-width:200px; border:1px solid #444; border-radius:8px; padding:20px; background:#1e1e2e;">
   <h3>🐛 漏洞研究</h3>
   <p>CVE 漏洞分析、原创漏洞研究</p>
-  <a href="vulnerabilities/">→ 进入模块</a>
+  <a href="{{ '/vulnerabilities/' | relative_url }}">→ 进入模块</a>
 </div>
 
 <div style="flex:1; min-width:200px; border:1px solid #444; border-radius:8px; padding:20px; background:#1e1e2e;">
   <h3>🔧 安全工具</h3>
   <p>固件分析、网络扫描、漏洞利用、防御加固</p>
-  <a href="tools/">→ 进入模块</a>
+  <a href="{{ '/tools/' | relative_url }}">→ 进入模块</a>
 </div>
 
 <div style="flex:1; min-width:200px; border:1px solid #444; border-radius:8px; padding:20px; background:#1e1e2e;">
   <h3>📚 学习资料</h3>
   <p>书籍推荐、学术论文、课程资源</p>
-  <a href="resources/">→ 进入模块</a>
+  <a href="{{ '/resources/' | relative_url }}">→ 进入模块</a>
 </div>
 
 <div style="flex:1; min-width:200px; border:1px solid #444; border-radius:8px; padding:20px; background:#1e1e2e;">
   <h3>📝 实战记录</h3>
   <p>CTF Writeup 与真实漏洞复现记录</p>
-  <a href="writeups/">→ 进入模块</a>
+  <a href="{{ '/writeups/' | relative_url }}">→ 进入模块</a>
 </div>
 
 </div>
