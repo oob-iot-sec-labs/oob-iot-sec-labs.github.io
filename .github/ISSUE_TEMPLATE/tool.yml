@@ -1,0 +1,34 @@
+name: 🔧 工具推荐 | Tool Recommendation
+description: 推荐一个 IOT 安全工具
+title: "[TOOL] "
+labels: ["tool"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 工具名称 | Tool Name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 工具链接 | URL
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类 | Category
+      options:
+        - firmware-analysis
+        - network-scanning
+        - exploitation
+        - defense
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 功能描述 | Description
+    validations:
+      required: true
