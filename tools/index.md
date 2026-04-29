@@ -1,10 +1,9 @@
----
+﻿---
 layout: default
-title: 安全工具 | Tools
+title: 安全工具
 permalink: /tools/
 ---
 
-<div data-lang="zh">
 
 <h1>🔧 安全工具</h1>
 <p>收录 IOT 安全研究常用工具，涵盖固件分析、网络扫描、漏洞利用与防御加固。</p>
@@ -27,35 +26,3 @@ permalink: /tools/
 <p>发现好用的工具？欢迎通过 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues/new?template=tool.yml">Issue 模板</a> 推荐。</p>
 
 <a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>
-
-</div>
-
-<div data-lang="en">
-
-<h1>🔧 Security Tools</h1>
-<p>A curated collection of tools for IoT security research, covering firmware analysis, network scanning, exploitation, and defense.</p>
-
-<h2>📂 Categories</h2>
-
-<h3><a href="firmware-analysis/">Firmware Analysis</a></h3>
-<p>Firmware extraction, unpacking, filesystem analysis, static/dynamic analysis.<br><em>e.g. binwalk, Firmwalker, Ghidra, QEMU</em></p>
-
-<h3><a href="network-scanning/">Network Scanning</a></h3>
-<p>IoT device discovery, port scanning, protocol analysis.<br><em>e.g. nmap, masscan, Shodan CLI, ZMap</em></p>
-
-<h3><a href="exploitation/">Exploitation</a></h3>
-<p>PoC tools, exploit frameworks, and debuggers for IoT devices.<br><em>e.g. Metasploit modules, RouterSploit, GDB</em></p>
-
-<h3><a href="defense/">Defense</a></h3>
-<p>IoT hardening, traffic monitoring, and threat detection tools.<br><em>e.g. Snort, Suricata, IoTShield</em></p>
-
-<h2>📋 Recommend a Tool</h2>
-<p>Found a useful tool? Submit via the <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues/new?template=tool.yml">Issue template</a>.</p>
-
-<a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>
-
-</div>
-
-{% include lang-switcher.html %}
-
-

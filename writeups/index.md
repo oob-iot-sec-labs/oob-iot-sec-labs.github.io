@@ -1,10 +1,9 @@
----
+﻿---
 layout: default
-title: 实战记录 | Writeups
+title: 实战记录
 permalink: /writeups/
 ---
 
-<div data-lang="zh">
 
 <h1>📝 实战记录</h1>
 <p>收录 IOT 安全 CTF 题解与真实漏洞复现记录。</p>
@@ -30,38 +29,3 @@ permalink: /writeups/
 3. 提交 Pull Request
 
 <a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>
-
-</div>
-
-<div data-lang="en">
-
-<h1>📝 Writeups</h1>
-<p>IoT security CTF solutions and real-world vulnerability reproduction writeups.</p>
-
-<h2>📋 Submission Guidelines</h2>
-
-Each writeup should include:
-
-1. **Target Device / Challenge** — Device model or CTF challenge name
-2. **Vulnerability Type** — e.g. RCE, command injection, unauthorized access
-3. **Analysis Process** — Firmware extraction, reverse engineering, vulnerability location
-4. **Exploitation** — PoC code or step-by-step instructions
-5. **Remediation** — Hardening suggestions for vendors or users
-
-<h2>🗂️ Published Writeups</h2>
-
-> No writeups yet — be the first to submit one!
-
-<h2>📤 How to Submit</h2>
-
-1. Create a new folder under `writeups/`, named: `YYYY-MM-DeviceName/`
-2. Add a `README.md` following the guidelines above
-3. Open a Pull Request
-
-<a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>
-
-</div>
-
-{% include lang-switcher.html %}
-
-

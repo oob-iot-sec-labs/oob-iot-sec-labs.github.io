@@ -1,6 +1,6 @@
----
+﻿---
 layout: default
-title: 首页 | Home
+title: 首页
 permalink: /
 ---
 
@@ -15,7 +15,6 @@ permalink: /
 
 ---
 
-<div data-lang="zh">
 
 <blockquote><code>// 专注于 IOT 设备安全研究、漏洞挖掘与防御的开放社区</code></blockquote>
 
@@ -52,47 +51,3 @@ permalink: /
 
 <h2>⚠️ 免责声明</h2>
 <p>本站内容仅用于安全研究与教育目的，请勿用于非法用途。</p>
-
-</div>
-
-<div data-lang="en">
-
-<blockquote><code>// An open community focused on IoT security research, vulnerability discovery, and defense.</code></blockquote>
-
-<h2>🧭 Navigation</h2>
-
-<div style="display:flex; flex-wrap:wrap; gap:16px; margin:24px 0;">
-  <div style="flex:1; min-width:200px; border:1px solid #444; border-radius:8px; padding:20px; background:#111;">
-    <h3>🐛 Vulnerabilities</h3>
-    <p>CVE analysis &amp; original vulnerability research</p>
-    <a href="{{ '/vulnerabilities/' | relative_url }}">→ Enter Module</a>
-  </div>
-  <div style="flex:1; min-width:200px; border:1px solid #444; border-radius:8px; padding:20px; background:#111;">
-    <h3>🔧 Tools</h3>
-    <p>Firmware analysis, network scanning, exploitation, defense</p>
-    <a href="{{ '/tools/' | relative_url }}">→ Enter Module</a>
-  </div>
-  <div style="flex:1; min-width:200px; border:1px solid #444; border-radius:8px; padding:20px; background:#111;">
-    <h3>📚 Resources</h3>
-    <p>Books, academic papers, courses</p>
-    <a href="{{ '/resources/' | relative_url }}">→ Enter Module</a>
-  </div>
-  <div style="flex:1; min-width:200px; border:1px solid #444; border-radius:8px; padding:20px; background:#111;">
-    <h3>📝 Writeups</h3>
-    <p>CTF writeups &amp; real-world vulnerability reproductions</p>
-    <a href="{{ '/writeups/' | relative_url }}">→ Enter Module</a>
-  </div>
-</div>
-
-<h2>📖 About</h2>
-<p>ChinaGreat-Sec is an open community for IoT security researchers, covering vulnerability research, security tools, learning resources, and hands-on writeups.</p>
-
-<h2>🤝 Contributing</h2>
-<p>Submit an <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues">Issue</a> or <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/pulls">Pull Request</a>! See <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/blob/main/CONTRIBUTING.md">Contributing Guide</a>.</p>
-
-<h2>⚠️ Disclaimer</h2>
-<p>All content is for security research and educational purposes only. Do not use for illegal activities.</p>
-
-</div>
-
-{% include lang-switcher.html %}

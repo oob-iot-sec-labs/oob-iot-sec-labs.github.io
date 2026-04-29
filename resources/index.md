@@ -1,10 +1,9 @@
----
+﻿---
 layout: default
-title: 学习资料 | Resources
+title: 学习资料
 permalink: /resources/
 ---
 
-<div data-lang="zh">
 
 <h1>📚 学习资料</h1>
 <p>精选 IOT 安全学习资源，助力从入门到进阶。</p>
@@ -33,41 +32,3 @@ permalink: /resources/
 | Exploit.Education | 漏洞利用入门 | [链接](https://exploit.education/) |
 
 <a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>
-
-</div>
-
-<div data-lang="en">
-
-<h1>📚 Learning Resources</h1>
-<p>Curated IoT security learning materials from beginner to advanced.</p>
-
-<h2>📂 Categories</h2>
-
-<h3><a href="books/">Books</a></h3>
-<p>Classic reads on IoT security, embedded systems, and reverse engineering.</p>
-
-| Title | Focus | Language |
-|-------|-------|----------|
-| *The IoT Hacker's Handbook* | IoT Security Intro | EN |
-| *Practical IoT Hacking* | Offensive / Defensive | EN |
-| *Embedded System Security* | Firmware / Hardware | CN |
-
-<h3><a href="papers/">Academic Papers</a></h3>
-<p>Selected papers from top security conferences: CCS, USENIX, S&P, NDSS.</p>
-
-<h3><a href="courses/">Courses & Platforms</a></h3>
-<p>Online courses, lab environments, and CTF training resources.</p>
-
-| Platform | Content | Link |
-|----------|---------|------|
-| OWASP IoT Project | IoT Security Framework | [Link](https://owasp.org/www-project-internet-of-things/) |
-| Hack The Box | Practice Labs | [Link](https://www.hackthebox.com/) |
-| Exploit.Education | Exploitation Basics | [Link](https://exploit.education/) |
-
-<a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>
-
-</div>
-
-{% include lang-switcher.html %}
-
-
