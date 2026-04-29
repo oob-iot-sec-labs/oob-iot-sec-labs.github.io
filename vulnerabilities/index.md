@@ -25,7 +25,7 @@ permalink: /vulnerabilities/
   <a href="{{ '/vulnerabilities/CVE/CVE-2022-42475/' | relative_url }}">→ 查看分析</a>
 </div>
 
-<h2>📋 提交漏洞</h2>
-<p>发现新漏洞？欢迎通过 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues/new?template=vulnerability.yml">Issue 模板</a> 提交。</p>
+<h2>📋 贡献知识帖</h2>
+<p>有知识帖想分享？漏洞复现、学习笔记、技术分享、疑问求助……。欢迎发送至<a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues/new?template=vulnerability.yml">chinagreatsec@outlook.com</a> 提交。</p>
 
 <a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>
