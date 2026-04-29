@@ -1,36 +1,89 @@
-# 贡献指南 | Contributing Guide
+# 贡献指南
 
-感谢你对 ChinaGreat-Sec 的关注！以下是参与贡献的方式。  
-Thank you for your interest in ChinaGreat-Sec! Here's how to contribute.
+感谢你对 ChinaGreat-Sec 的关注！本文档说明如何参与维护本站。
 
-## 📌 贡献方式 | Ways to Contribute
+> 技术细节（Jekyll 配置、样式规范、已知坑）请参阅 [`docs/site-context.md`](docs/site-context.md)。
 
-- 提交新的漏洞分析（CVE 或原创研究）
-- 推荐或收录安全工具
-- 补充学习资源（书籍、论文、课程）
-- 分享 CTF Writeup 或实战记录
-- 修复文档错误
+---
 
-## 📝 提交规范 | Submission Guidelines
+## 🤝 协作分工
 
-1. Fork 本仓库
-2. 创建新分支：`git checkout -b feat/your-feature`
-3. 提交改动：`git commit -m "add: 简要描述"`
-4. 推送分支：`git push origin feat/your-feature`
-5. 创建 Pull Request
+| 模块 | 负责目录 |
+|------|----------|
+| 漏洞研究 | `vulnerabilities/`、`assets/images/` |
+| 安全工具 | `tools/` |
+| 学习资料 | `resources/` |
+| 实战记录 | `writeups/` |
+| 样式/架构 | `assets/css/style.scss`、`_config.yml`、`_includes/` |
 
-## 📁 目录规范 | Directory Guidelines
+> ⚠️ `assets/css/style.scss` 和 `_config.yml` 是全局文件，修改前请在 PR 中说明原因。
 
-| 内容类型 | 目录 |
+---
+
+## 📋 提交流程
+
+```bash
+# 1. 同步最新 main
+git checkout main && git pull origin main
+
+# 2. 创建功能分支
+git checkout -b vuln/CVE-2024-XXXXX
+
+# 3. 写内容并提交
+git add .
+git commit -m "feat: add CVE-2024-XXXXX FortiOS 堆溢出分析"
+
+# 4. 推送并发起 Pull Request
+git push origin vuln/CVE-2024-XXXXX
+```
+
+### 分支命名规范
+
+| 类型 | 格式 | 示例 |
+|------|------|------|
+| 漏洞文章 | `vuln/CVE-XXXX-XXXXX` | `vuln/CVE-2024-12345` |
+| 工具收录 | `tools/add-工具名` | `tools/add-binwalk` |
+| 学习资料 | `resources/add-简述` | `resources/add-iot-books` |
+| 实战记录 | `writeups/设备名` | `writeups/tplink-archer` |
+| 修复 | `fix/问题简述` | `fix/cve-index-link` |
+
+### Commit 规范
+
+```
+feat:  新增内容（文章、工具、资料）
+fix:   修复错误
+style: 样式调整
+docs:  文档更新
+```
+
+---
+
+## 📁 目录规范
+
+| 内容类型 | 路径 |
 |---------|------|
-| CVE 分析 | `vulnerabilities/CVE/CVE-XXXX-XXXX/` |
-| 原创研究 | `vulnerabilities/research/` |
-| 工具收录 | `tools/<分类>/` |
-| 学习资料 | `resources/<分类>/` |
-| Writeup  | `writeups/` |
+| CVE 分析 | `vulnerabilities/CVE/CVE-XXXX-XXXX/index.md` |
+| 原创研究 | `vulnerabilities/research/<名称>/index.md` |
+| 相关图片 | `assets/images/<厂商>/<CVE编号>/` |
+| 工具收录 | `tools/<分类>/index.md` |
+| 学习资料 | `resources/<分类>/index.md` |
+| Writeup  | `writeups/<设备名-日期>/index.md` |
 
-## ✅ 代码规范
+---
 
-- Markdown 文件请使用清晰的标题层级
-- 漏洞分析需包含：影响范围、复现步骤、修复建议
-- 工具收录需包含：功能简介、使用方法、来源链接
+## 📝 添加漏洞文章后的必要更新
+
+1. **`vulnerabilities/CVE/index.md`** — 统计表 + 漏洞列表新增条目
+2. **`vulnerabilities/index.md`** — 更新"最新收录"卡片
+
+详细模板见 [`docs/site-context.md`](docs/site-context.md#-漏洞文章模板)。
+
+---
+
+## ✅ PR 合并条件
+
+- [ ] 内容准确，图片已放入 `assets/images/` 对应目录
+- [ ] 链接使用 `{{ '/path/' | relative_url }}` 格式
+- [ ] 返回按钮正确（🔙 返回上级，🏠 返回首页）
+- [ ] 相关索引页已同步更新
+
