@@ -4,8 +4,6 @@ title: 安全工具 | Tools
 permalink: /tools/
 ---
 
-{% include lang-switcher.html %}
-
 <div data-lang="zh">
 
 <h1>🔧 安全工具</h1>
@@ -57,4 +55,6 @@ permalink: /tools/
 <p><a href="{{ '/' | relative_url }}">← Back to Home</a></p>
 
 </div>
+
+{% include lang-switcher.html %}
 

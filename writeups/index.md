@@ -4,8 +4,6 @@ title: 实战记录 | Writeups
 permalink: /writeups/
 ---
 
-{% include lang-switcher.html %}
-
 <div data-lang="zh">
 
 <h1>📝 实战记录</h1>
@@ -63,4 +61,6 @@ Each writeup should include:
 <p><a href="{{ '/' | relative_url }}">← Back to Home</a></p>
 
 </div>
+
+{% include lang-switcher.html %}
 

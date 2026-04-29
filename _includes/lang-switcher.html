@@ -35,12 +35,8 @@
   text-shadow: 0 0 6px #00ff41;
   background: rgba(0,255,65,0.1);
 }
-.lang-switcher button:hover:not(.active) {
-  color: #aaa;
-}
+.lang-switcher button:hover:not(.active) { color: #aaa; }
 .lang-switcher .sep { color: #333; font-size: 12px; }
-
-[data-lang] { display: none; }
 </style>
 
 <script>
@@ -48,13 +44,22 @@ function setLang(lang) {
   document.querySelectorAll('[data-lang]').forEach(function(el) {
     el.style.display = el.dataset.lang === lang ? '' : 'none';
   });
-  document.getElementById('btn-zh').classList.toggle('active', lang === 'zh');
-  document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+  var btnZh = document.getElementById('btn-zh');
+  var btnEn = document.getElementById('btn-en');
+  if (btnZh) btnZh.classList.toggle('active', lang === 'zh');
+  if (btnEn) btnEn.classList.toggle('active', lang === 'en');
   localStorage.setItem('cgs-lang', lang);
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+function initLang() {
   var saved = localStorage.getItem('cgs-lang') || 'zh';
   setLang(saved);
-});
+}
+
+// 兼容脚本在 body 中间执行的情况
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initLang);
+} else {
+  initLang();
+}
 </script>

@@ -4,8 +4,6 @@ title: 学习资料 | Resources
 permalink: /resources/
 ---
 
-{% include lang-switcher.html %}
-
 <div data-lang="zh">
 
 <h1>📚 学习资料</h1>
@@ -69,4 +67,6 @@ permalink: /resources/
 <p><a href="{{ '/' | relative_url }}">← Back to Home</a></p>
 
 </div>
+
+{% include lang-switcher.html %}
 

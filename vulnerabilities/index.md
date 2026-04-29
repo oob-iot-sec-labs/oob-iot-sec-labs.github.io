@@ -4,8 +4,6 @@ title: 漏洞研究 | Vulnerabilities
 permalink: /vulnerabilities/
 ---
 
-{% include lang-switcher.html %}
-
 <div data-lang="zh">
 
 <h1>🐛 漏洞研究</h1>
@@ -45,4 +43,6 @@ permalink: /vulnerabilities/
 <p><a href="{{ '/' | relative_url }}">← Back to Home</a></p>
 
 </div>
+
+{% include lang-switcher.html %}
 

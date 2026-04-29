@@ -4,8 +4,6 @@ title: 首页 | Home
 permalink: /
 ---
 
-{% include lang-switcher.html %}
-
 <div align="center">
 <h1>🔐 ChinaGreat-Sec</h1>
 <p>
@@ -17,7 +15,6 @@ permalink: /
 
 ---
 
-<!-- ===== 中文内容 ===== -->
 <div data-lang="zh">
 
 <blockquote><code>// 专注于 IOT 设备安全研究、漏洞挖掘与防御的开放社区</code></blockquote>
@@ -48,20 +45,16 @@ permalink: /
 </div>
 
 <h2>📖 关于我们</h2>
-
-ChinaGreat-Sec 是一个面向 IOT 网络安全研究者的开放社区，涵盖漏洞研究、安全工具、学习资料及实战 Writeup，致力于推动 IOT 安全领域的知识共享与技术交流。
+<p>ChinaGreat-Sec 是一个面向 IOT 网络安全研究者的开放社区，涵盖漏洞研究、安全工具、学习资料及实战 Writeup，致力于推动 IOT 安全领域的知识共享与技术交流。</p>
 
 <h2>🤝 参与贡献</h2>
-
-欢迎提交 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues">Issue</a> 或 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/pulls">Pull Request</a> 参与共建！详见 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/blob/main/CONTRIBUTING.md">贡献指南</a>。
+<p>欢迎提交 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues">Issue</a> 或 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/pulls">Pull Request</a>！详见 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/blob/main/CONTRIBUTING.md">贡献指南</a>。</p>
 
 <h2>⚠️ 免责声明</h2>
-
-本站内容仅用于安全研究与教育目的，请勿用于非法用途。
+<p>本站内容仅用于安全研究与教育目的，请勿用于非法用途。</p>
 
 </div>
 
-<!-- ===== English Content ===== -->
 <div data-lang="en">
 
 <blockquote><code>// An open community focused on IoT security research, vulnerability discovery, and defense.</code></blockquote>
@@ -71,7 +64,7 @@ ChinaGreat-Sec 是一个面向 IOT 网络安全研究者的开放社区，涵盖
 <div style="display:flex; flex-wrap:wrap; gap:16px; margin:24px 0;">
   <div style="flex:1; min-width:200px; border:1px solid #444; border-radius:8px; padding:20px; background:#111;">
     <h3>🐛 Vulnerabilities</h3>
-    <p>CVE analysis & original vulnerability research</p>
+    <p>CVE analysis &amp; original vulnerability research</p>
     <a href="{{ '/vulnerabilities/' | relative_url }}">→ Enter Module</a>
   </div>
   <div style="flex:1; min-width:200px; border:1px solid #444; border-radius:8px; padding:20px; background:#111;">
@@ -86,22 +79,20 @@ ChinaGreat-Sec 是一个面向 IOT 网络安全研究者的开放社区，涵盖
   </div>
   <div style="flex:1; min-width:200px; border:1px solid #444; border-radius:8px; padding:20px; background:#111;">
     <h3>📝 Writeups</h3>
-    <p>CTF writeups & real-world vulnerability reproductions</p>
+    <p>CTF writeups &amp; real-world vulnerability reproductions</p>
     <a href="{{ '/writeups/' | relative_url }}">→ Enter Module</a>
   </div>
 </div>
 
 <h2>📖 About</h2>
-
-ChinaGreat-Sec is an open community for IoT security researchers, covering vulnerability research, security tools, learning resources, and hands-on writeups — dedicated to promoting knowledge sharing in the IoT security field.
+<p>ChinaGreat-Sec is an open community for IoT security researchers, covering vulnerability research, security tools, learning resources, and hands-on writeups.</p>
 
 <h2>🤝 Contributing</h2>
-
-Submit an <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues">Issue</a> or <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/pulls">Pull Request</a> to contribute! See <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/blob/main/CONTRIBUTING.md">Contributing Guide</a>.
+<p>Submit an <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues">Issue</a> or <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/pulls">Pull Request</a>! See <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/blob/main/CONTRIBUTING.md">Contributing Guide</a>.</p>
 
 <h2>⚠️ Disclaimer</h2>
-
-All content is for security research and educational purposes only. Do not use for illegal activities.
+<p>All content is for security research and educational purposes only. Do not use for illegal activities.</p>
 
 </div>
 
+{% include lang-switcher.html %}
