@@ -1,6 +1,6 @@
 # 贡献指南
 
-感谢你对 ChinaGreat-Sec 的关注！本文档说明如何参与维护本站。
+感谢你对 OOB IoT Sec Labs 的关注！本文档说明如何参与维护本站。
 
 > 技术细节（Jekyll 配置、样式规范、已知坑）请参阅 [`docs/site-context.md`](docs/site-context.md)。
 

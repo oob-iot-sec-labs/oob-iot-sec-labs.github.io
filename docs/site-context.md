@@ -1,4 +1,4 @@
-# ChinaGreat-Sec 站点技术上下文
+# OOB IoT Sec Labs 站点技术上下文
 
 > **用途**：每次开启新会话时，先让 AI 读取本文件以快速恢复上下文。  
 > **维护**：每次做出重要技术决策后更新本文件。
@@ -9,9 +9,9 @@
 
 | 字段 | 值 |
 |------|----|
-| 网址 | https://chinagreat-sec.github.io/ |
-| 仓库 | https://github.com/ChinaGreat-Sec/chinagreat-sec.github.io |
-| 本地路径 | `C:\github\ChinaGreat-Sec\` |
+| 网址 | https://oob-iot-sec-labs.github.io/ |
+| 仓库 | https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io |
+| 本地路径 | `C:\github\oob-iot-sec-labs.github.io\` |
 | 技术栈 | Jekyll + jekyll-theme-hacker |
 | 语言 | 纯中文（已移除双语功能） |
 | 部署 | GitHub Pages（main 分支自动构建） |
@@ -21,9 +21,9 @@
 ## ⚙️ Jekyll 配置（`_config.yml`）
 
 ```yaml
-title: "ChinaGreat-Sec"
+title: "OOB IoT Sec Labs"
 description: "IOT 网络安全社区"
-url: "https://chinagreat-sec.github.io"
+url: "https://oob-iot-sec-labs.github.io"
 baseurl: ""          # 组织 Pages，baseurl 为空
 theme: jekyll-theme-hacker
 markdown: kramdown
@@ -67,7 +67,7 @@ style="border:1px solid #444"  /* → SCSS 会自动添加发光效果 */
 ## 📁 目录结构
 
 ```
-chinagreat-sec.github.io/
+oob-iot-sec-labs.github.io/
 ├── _config.yml
 ├── _includes/
 │   └── lang-switcher.html    # 已清空，保留文件避免 Jekyll 报错
@@ -223,4 +223,4 @@ docs: 更新 CONTRIBUTING.md
 ## 🔄 会话恢复提示词
 
 每次新开会话，告诉 AI：
-> "请先读取 `C:\github\ChinaGreat-Sec\docs\site-context.md`，了解项目背景后继续协助我维护这个网站。"
+> "请先读取 `C:\github\oob-iot-sec-labs.github.io\docs\site-context.md`，了解项目背景后继续协助我维护这个网站。"

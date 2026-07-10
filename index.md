@@ -5,11 +5,11 @@ permalink: /
 ---
 
 <div align="center">
-<h1>🔐 ChinaGreat-Sec</h1>
+<h1>🔐 OOB IoT Sec Labs</h1>
 <p>
-  <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ChinaGreat-Sec/ChinaGreat-Sec" alt="License"></a>
-  <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/stargazers"><img src="https://img.shields.io/github/stars/ChinaGreat-Sec/ChinaGreat-Sec" alt="Stars"></a>
-  <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg" alt="Contributions Welcome"></a>
+  <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/blob/main/LICENSE"><img src="https://img.shields.io/github/license/oob-iot-sec-labs/oob-iot-sec-labs.github.io" alt="License"></a>
+  <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/stargazers"><img src="https://img.shields.io/github/stars/oob-iot-sec-labs/oob-iot-sec-labs.github.io" alt="Stars"></a>
+  <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg" alt="Contributions Welcome"></a>
 </p>
 </div>
 
@@ -44,10 +44,10 @@ permalink: /
 </div>
 
 <h2>📖 关于我们</h2>
-<p>ChinaGreat-Sec 是一个面向 IOT 网络安全研究者的开放社区，涵盖漏洞研究、安全工具、学习资料及实战 Writeup，致力于推动 IOT 安全领域的知识共享与技术交流。</p>
+<p>OOB IoT Sec Labs 是一个面向 IOT 网络安全研究者的开放社区，涵盖漏洞研究、安全工具、学习资料及实战 Writeup，致力于推动 IOT 安全领域的知识共享与技术交流。</p>
 
 <h2>🤝 参与贡献</h2>
-<p>有知识帖想分享？漏洞复现、学习笔记、技术分享、疑问求助……。欢迎发送至<a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues/new?template=vulnerability.yml">chinagreatsec@outlook.com</a> 提交。</p><p>同时欢迎提交 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues">Issue</a> 或 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/pulls">Pull Request</a>！详见 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/blob/main/CONTRIBUTING.md">贡献指南</a>。</p>
+<p>有知识帖想分享？漏洞复现、学习笔记、技术分享、疑问求助……。欢迎发送至<a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/issues/new?template=vulnerability.yml">chinagreatsec@outlook.com</a> 提交。</p><p>同时欢迎提交 <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/issues">Issue</a> 或 <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/pulls">Pull Request</a>！详见 <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/blob/main/CONTRIBUTING.md">贡献指南</a>。</p>
 
 <h2>⚠️ 免责声明</h2>
 <p>本站内容仅用于安全研究与教育目的，请勿用于非法用途。</p>

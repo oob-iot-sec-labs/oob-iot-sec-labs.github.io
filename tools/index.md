@@ -23,6 +23,6 @@ permalink: /tools/
 <p>IOT 设备安全加固、流量监控、威胁检测工具。<br><em>如：Snort、Suricata、IoTShield</em></p>
 
 <h2>📋 推荐工具</h2>
-<p>发现好用的工具？欢迎通过 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues/new?template=tool.yml">Issue 模板</a> 推荐。</p>
+<p>发现好用的工具？欢迎通过 <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/issues/new?template=tool.yml">Issue 模板</a> 推荐。</p>
 
 <a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>

@@ -30,6 +30,6 @@ permalink: /vulnerabilities/CVE/
 </div>
 
 <h2>📤 提交知识帖</h2>
-<p>有知识帖想分享？漏洞复现、学习笔记、技术分享、疑问求助……。欢迎发送至 <a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues/new?template=vulnerability.yml">chinagreatsec@outlook.com</a> 提交。</p>
+<p>有知识帖想分享？漏洞复现、学习笔记、技术分享、疑问求助……。欢迎发送至 <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/issues/new?template=vulnerability.yml">chinagreatsec@outlook.com</a> 提交。</p>
 
 <a href="{{ '/vulnerabilities/' | relative_url }}" class="back-home" title="返回漏洞研究 / Back">🔙</a>

@@ -1,11 +1,11 @@
 <div align="center">
 
-# 🔐 ChinaGreat-Sec
+# 🔐 OOB IoT Sec Labs
 
 **IOT 网络安全社区 | IoT Cybersecurity Community**
 
-[![License](https://img.shields.io/github/license/ChinaGreat-Sec/ChinaGreat-Sec)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/ChinaGreat-Sec/ChinaGreat-Sec)](https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/stargazers)
+[![License](https://img.shields.io/github/license/oob-iot-sec-labs/oob-iot-sec-labs.github.io)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/oob-iot-sec-labs/oob-iot-sec-labs.github.io)](https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/stargazers)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 > 专注于 IOT 设备安全研究、漏洞挖掘与防御的开放社区  
@@ -17,16 +17,16 @@
 
 ## 📖 简介 | Introduction
 
-**中文：** ChinaGreat-Sec 是一个面向 IOT 网络安全研究者的开放社区，涵盖漏洞研究、安全工具、学习资料及实战 Writeup，致力于推动 IOT 安全领域的知识共享与技术交流。
+**中文：** OOB IoT Sec Labs 是一个面向 IOT 网络安全研究者的开放社区，涵盖漏洞研究、安全工具、学习资料及实战 Writeup，致力于推动 IOT 安全领域的知识共享与技术交流。
 
-**English:** ChinaGreat-Sec is an open community for IoT security researchers, covering vulnerability research, security tools, learning resources, and hands-on writeups — dedicated to promoting knowledge sharing in the IoT security field.
+**English:** OOB IoT Sec Labs is an open community for IoT security researchers, covering vulnerability research, security tools, learning resources, and hands-on writeups — dedicated to promoting knowledge sharing in the IoT security field.
 
 ---
 
 ## 📂 目录结构 | Structure
 
 ```
-ChinaGreat-Sec/
+oob-iot-sec-labs.github.io/
 ├── vulnerabilities/        # 漏洞研究 | Vulnerability Research
 │   ├── CVE/                # CVE 漏洞分析
 │   └── research/           # 原创漏洞研究
@@ -50,7 +50,7 @@ ChinaGreat-Sec/
 2. 查看 [漏洞研究](./vulnerabilities/) 了解最新 IOT 漏洞
 3. 探索 [安全工具](./tools/) 获取实用工具
 4. 阅读 [学习资料](./resources/) 提升技能
-5. 欢迎提交 [Issue](https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues) 或 PR 参与贡献
+5. 欢迎提交 [Issue](https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/issues) 或 PR 参与贡献
 
 ---
 

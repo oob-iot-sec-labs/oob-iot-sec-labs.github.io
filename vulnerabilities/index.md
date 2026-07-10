@@ -26,6 +26,6 @@ permalink: /vulnerabilities/
 </div>
 
 <h2>📋 贡献知识帖</h2>
-<p>有知识帖想分享？漏洞复现、学习笔记、技术分享、疑问求助……。欢迎发送至<a href="https://github.com/ChinaGreat-Sec/ChinaGreat-Sec/issues/new?template=vulnerability.yml">chinagreatsec@outlook.com</a> 提交。</p>
+<p>有知识帖想分享？漏洞复现、学习笔记、技术分享、疑问求助……。欢迎发送至<a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/issues/new?template=vulnerability.yml">chinagreatsec@outlook.com</a> 提交。</p>
 
 <a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>
