@@ -57,7 +57,7 @@ markdown: kramdown
 ### 组件规范
 ```scss
 /* 返回按钮 */
-.back-home   /* 子页面用 🔙，首页直接子模块用 🏠 */
+.back-home   /* 使用文字，如“返回首页”“返回漏洞研究” */
 
 /* 卡片样式（用 inline style 触发 CSS 选择器） */
 style="border:1px solid #444"  /* → SCSS 会自动添加发光效果 */
@@ -65,7 +65,7 @@ style="border:1px solid #444"  /* → SCSS 会自动添加发光效果 */
 
 ---
 
-## 📁 目录结构
+## 目录结构
 
 ```
 oob-iot-sec-labs.github.io/
@@ -121,12 +121,12 @@ permalink: /path/to/page/
 
 <!-- 正文内容 -->
 
-<a href="{{ '/parent/' | relative_url }}" class="back-home" title="返回上一页">🔙</a>
+<a href="{{ '/parent/' | relative_url }}" class="back-home" title="返回上一页">返回上一页</a>
 ```
 
 ### 返回按钮规则
-- 返回**首页**：用 🏠，链接 `{{ '/' | relative_url }}`
-- 返回**上一级**：用 🔙，链接 `{{ '/parent-path/' | relative_url }}`
+- 返回**首页**：文字使用“返回首页”，链接 `{{ '/' | relative_url }}`
+- 返回**上一级**：文字使用“返回上一级”或具体模块名，例如“返回漏洞研究”，链接 `{{ '/parent-path/' | relative_url }}`
 
 ### 图片引用
 ```markdown
@@ -136,7 +136,7 @@ permalink: /path/to/page/
 
 ---
 
-## 📝 漏洞文章模板
+## 漏洞文章模板
 
 新建漏洞文章路径：`vulnerabilities/CVE/CVE-XXXX-XXXXX/index.md`
 
@@ -169,9 +169,9 @@ permalink: /vulnerabilities/CVE/CVE-XXXX-XXXXX/
 ## 利用过程
 ...
 
-> ⚠️ **免责声明**：本文仅用于安全研究与教育目的。请勿将上述技术用于未经授权的系统。
+> **免责声明**：本文仅用于安全研究与教育目的。请勿将上述技术用于未经授权的系统。
 
-<a href="{{ '/vulnerabilities/CVE/' | relative_url }}" class="back-home" title="返回 CVE 列表">🔙</a>
+<a href="{{ '/vulnerabilities/CVE/' | relative_url }}" class="back-home" title="返回 CVE 列表">返回 CVE 列表</a>
 ```
 
 **添加完文章后记得更新：**
@@ -180,7 +180,7 @@ permalink: /vulnerabilities/CVE/CVE-XXXX-XXXXX/
 
 ---
 
-## 🤝 协作工作流
+## 协作工作流
 
 ### 分支命名规范
 ```

@@ -5,10 +5,10 @@ permalink: /tools/
 ---
 
 
-<h1>🔧 安全工具</h1>
+<h1>安全工具</h1>
 <p>收录 IoT 安全研究常用工具，涵盖固件分析、网络扫描、漏洞利用与防御加固。</p>
 
-<h2>📂 工具分类</h2>
+<h2>工具分类</h2>
 
 <h3><a href="firmware-analysis/">固件分析</a></h3>
 <p>固件提取、解包、文件系统分析、静态/动态分析工具。<br><em>如：binwalk、Firmwalker、Ghidra、QEMU</em></p>
@@ -22,7 +22,7 @@ permalink: /tools/
 <h3><a href="defense/">防御加固</a></h3>
 <p>IoT 设备安全加固、流量监控、威胁检测工具。<br><em>如：Snort、Suricata、IoTShield</em></p>
 
-<h2>📋 推荐工具</h2>
+<h2>推荐工具</h2>
 <p>发现好用的工具？欢迎通过 <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/issues/new?template=tool.yml">Issue 模板</a> 推荐。</p>
 
-<a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>
+<a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">返回首页</a>

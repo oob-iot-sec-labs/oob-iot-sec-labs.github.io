@@ -5,10 +5,10 @@ permalink: /resources/
 ---
 
 
-<h1>📚 学习资料</h1>
+<h1>学习资料</h1>
 <p>精选 IoT 安全学习资源，助力从入门到进阶。</p>
 
-<h2>📂 资料分类</h2>
+<h2>资料分类</h2>
 
 <h3><a href="books/">书籍推荐</a></h3>
 <p>IoT 安全、嵌入式系统、逆向工程等方向经典书目。</p>
@@ -31,4 +31,4 @@ permalink: /resources/
 | Hack The Box | 实战靶机 | [链接](https://www.hackthebox.com/) |
 | Exploit.Education | 漏洞利用入门 | [链接](https://exploit.education/) |
 
-<a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>
+<a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">返回首页</a>
