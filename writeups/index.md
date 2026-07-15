@@ -6,7 +6,7 @@ permalink: /writeups/
 
 
 <h1>📝 实战记录</h1>
-<p>收录 IOT 安全 CTF 题解与真实漏洞复现记录。</p>
+<p>收录 IoT 安全 CTF 题解与真实漏洞复现记录。</p>
 
 <h2>📋 收录规范</h2>
 

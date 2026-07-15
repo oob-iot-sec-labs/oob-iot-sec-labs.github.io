@@ -6,28 +6,28 @@ permalink: /resources/
 
 
 <h1>📚 学习资料</h1>
-<p>精选 IOT 安全学习资源，助力从入门到进阶。</p>
+<p>精选 IoT 安全学习资源，助力从入门到进阶。</p>
 
 <h2>📂 资料分类</h2>
 
 <h3><a href="books/">书籍推荐</a></h3>
-<p>IOT 安全、嵌入式系统、逆向工程等方向经典书目。</p>
+<p>IoT 安全、嵌入式系统、逆向工程等方向经典书目。</p>
 
 | 书名 | 方向 | 语言 |
 |------|------|------|
-| *The IoT Hacker's Handbook* | IOT 安全入门 | EN |
+| *The IoT Hacker's Handbook* | IoT 安全入门 | EN |
 | *Practical IoT Hacking* | 实战攻防 | EN |
 | *嵌入式系统安全* | 固件/硬件 | CN |
 
 <h3><a href="papers/">学术论文</a></h3>
-<p>IOT 安全领域顶会（CCS、USENIX、S&P、NDSS）精选论文。</p>
+<p>IoT 安全领域顶会（CCS、USENIX、S&P、NDSS）精选论文。</p>
 
 <h3><a href="courses/">课程资源</a></h3>
 <p>在线课程、实验平台与 CTF 训练资源。</p>
 
 | 平台 | 内容 | 链接 |
 |------|------|------|
-| OWASP IoT Project | IOT 安全框架 | [链接](https://owasp.org/www-project-internet-of-things/) |
+| OWASP IoT Project | IoT 安全框架 | [链接](https://owasp.org/www-project-internet-of-things/) |
 | Hack The Box | 实战靶机 | [链接](https://www.hackthebox.com/) |
 | Exploit.Education | 漏洞利用入门 | [链接](https://exploit.education/) |
 

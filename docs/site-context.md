@@ -22,7 +22,7 @@
 
 ```yaml
 title: "OOB IoT Sec Labs"
-description: "IOT 网络安全社区"
+description: "IoT 网络安全社区"
 url: "https://oob-iot-sec-labs.github.io"
 baseurl: ""          # 组织 Pages，baseurl 为空
 theme: jekyll-theme-hacker
@@ -39,12 +39,13 @@ markdown: kramdown
 
 ### 颜色变量
 ```scss
---accent:     #a855f7   /* 主色：蓝紫色 */
---accent-dim: #7c3aed   /* 暗色版 */
---accent-glow: rgba(168, 85, 247, 0.18)
---bg:         #0a070f   /* 背景 */
---bg-card:    #100d1a   /* 卡片背景 */
---border:     #a855f733 /* 边框 */
+--accent:      #ff8a1f   /* 主色：橙金色 */
+--accent-dim:  #d96a10   /* 暗色版 */
+--accent-hot:  #ff4d1f   /* 高亮强调 */
+--accent-soft: #ffb347   /* 柔和强调 */
+--bg:          #07090d   /* 背景 */
+--bg-card:     #10141d   /* 卡片背景 */
+--border:      rgba(255, 138, 31, 0.26)
 ```
 
 ### 已知 hacker 主题 quirk（坑）
@@ -70,11 +71,17 @@ style="border:1px solid #444"  /* → SCSS 会自动添加发光效果 */
 oob-iot-sec-labs.github.io/
 ├── _config.yml
 ├── _includes/
-│   └── lang-switcher.html    # 已清空，保留文件避免 Jekyll 报错
+│   └── head-custom.html      # favicon 等 head 扩展
+├── _layouts/
+│   └── default.html          # 自定义 hacker 主题布局，包含站点头部与页脚
 ├── assets/
 │   ├── css/style.scss        # 所有自定义样式
 │   └── images/
-│       └── Forti/CVE-2022-42475/   # 7 张 PNG 截图
+│       ├── OOB.jpg
+│       ├── OOB.webp          # 首页头部优先使用，JPG 作为 fallback
+│       ├── favicon-96x96.png
+│       ├── apple-touch-icon.png
+│       └── Forti/CVE-2022-42475/   # 漏洞文章截图
 ├── index.md                  # 首页
 ├── vulnerabilities/
 │   ├── index.md              # 漏洞研究模块首页

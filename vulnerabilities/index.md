@@ -6,7 +6,7 @@ permalink: /vulnerabilities/
 
 
 <h1>🐛 漏洞研究</h1>
-<p>专注于 IOT 设备漏洞的发现、分析与披露。</p>
+<p>专注于 IoT 设备漏洞的发现、分析与披露。</p>
 
 <h2>📂 子模块</h2>
 
@@ -14,7 +14,7 @@ permalink: /vulnerabilities/
 <p>收录已公开 CVE 编号的漏洞分析报告，包含漏洞原理、复现步骤及利用过程。</p>
 
 <h3><a href="{{ '/vulnerabilities/research/' | relative_url }}">原创研究</a></h3>
-<p>团队独立挖掘的漏洞研究成果，涵盖路由器、摄像头、智能家居等 IOT 设备。</p>
+<p>团队独立挖掘的漏洞研究成果，涵盖路由器、摄像头、智能家居等 IoT 设备。</p>
 
 <h2>🆕 最新收录</h2>
 
@@ -26,6 +26,6 @@ permalink: /vulnerabilities/
 </div>
 
 <h2>📋 贡献知识帖</h2>
-<p>有知识帖想分享？漏洞复现、学习笔记、技术分享、疑问求助……。欢迎发送至<a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/issues/new?template=vulnerability.yml">chinagreatsec@outlook.com</a> 提交。</p>
+<p>有知识帖想分享？漏洞复现、学习笔记、技术分享、疑问求助……。欢迎发送至 <a href="mailto:chinagreatsec@outlook.com">chinagreatsec@outlook.com</a> 提交。</p>
 
 <a href="{{ '/' | relative_url }}" class="back-home" title="返回首页 / Back to Home">🏠</a>
