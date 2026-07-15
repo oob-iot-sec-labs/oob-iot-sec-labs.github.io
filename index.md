@@ -5,6 +5,7 @@ permalink: /
 ---
 
 <div align="center">
+<img src="https://raw.githubusercontent.com/oob-iot-sec-labs/.github/main/profile/OOB.png" alt="OOB IoT Sec Labs logo" width="120" style="max-width:40%; height:auto; margin-bottom:12px;">
 <h1>🔐 OOB IoT Sec Labs</h1>
 <p>
   <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/blob/main/LICENSE"><img src="https://img.shields.io/github/license/oob-iot-sec-labs/oob-iot-sec-labs.github.io" alt="License"></a>
