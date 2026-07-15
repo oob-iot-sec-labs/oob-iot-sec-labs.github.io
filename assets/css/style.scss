@@ -174,6 +174,48 @@ header h2 {
   letter-spacing: 0;
 }
 
+.site-branding {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 72px;
+}
+
+.site-logo {
+  width: 58px;
+  height: 58px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex: 0 0 auto;
+  box-shadow: 0 0 14px rgba(168,85,247,0.28);
+}
+
+.site-title-group h1,
+.site-title-group h2 {
+  margin-left: 0 !important;
+}
+
+.site-title-group h1 {
+  margin-bottom: 4px !important;
+}
+
+.site-title-group h2 {
+  margin-top: 0 !important;
+}
+
+@media (max-width: 520px) {
+  .site-branding {
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .site-logo {
+    width: 46px;
+    height: 46px;
+    border-radius: 8px;
+  }
+}
+
 /* header 标题链接不受全局 a 颜色干扰 */
 #a-title,
 #a-title:hover {

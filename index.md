@@ -4,17 +4,13 @@ title: 首页
 permalink: /
 ---
 
-<div style="display:flex; align-items:center; justify-content:center; gap:18px; flex-wrap:wrap; text-align:left; margin:8px 0 14px;">
-<img src="{{ '/assets/images/OOB.jpg' | relative_url }}" alt="OOB IoT Sec Labs logo" width="92" height="92" style="width:92px; height:92px; object-fit:cover; border-radius:12px; flex:0 0 auto;">
-<div>
-<h1 style="margin-bottom:6px;">🔐 OOB IoT Sec Labs</h1>
-<p style="margin-top:0; color:#b5e853;">IOT 网络安全社区</p>
+<div align="center">
+<h1>🔐 OOB IoT Sec Labs</h1>
 <p>
   <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/blob/main/LICENSE"><img src="https://img.shields.io/github/license/oob-iot-sec-labs/oob-iot-sec-labs.github.io" alt="License"></a>
   <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/stargazers"><img src="https://img.shields.io/github/stars/oob-iot-sec-labs/oob-iot-sec-labs.github.io" alt="Stars"></a>
   <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg" alt="Contributions Welcome"></a>
 </p>
-</div>
 </div>
 
 ---
