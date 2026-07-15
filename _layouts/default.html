@@ -15,7 +15,10 @@
     <header>
       <div class="container">
         <div class="site-branding">
-          <img class="site-logo" src="{{ '/assets/images/OOB.jpg' | relative_url }}" alt="OOB IoT Sec Labs logo">
+          <picture>
+            <source srcset="{{ '/assets/images/OOB.webp' | relative_url }}" type="image/webp">
+            <img class="site-logo" src="{{ '/assets/images/OOB.jpg' | relative_url }}" alt="OOB IoT Sec Labs logo">
+          </picture>
           <div class="site-title-group">
             <a id="a-title" href="{{ '/' | relative_url }}">
               <h1>{{ site.title | default: site.github.repository_name }}</h1>
@@ -39,5 +42,30 @@
         {{ content }}
       </section>
     </div>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h2>OOB IoT Sec Labs</h2>
+          <p>Out of the Box IoT Security Research</p>
+          <p class="footer-note">本站内容仅用于安全研究与教育目的，请勿用于非法用途。</p>
+        </div>
+        <div>
+          <h3>快速入口</h3>
+          <p><a href="{{ '/vulnerabilities/' | relative_url }}">漏洞研究</a></p>
+          <p><a href="{{ '/tools/' | relative_url }}">安全工具</a></p>
+          <p><a href="{{ '/resources/' | relative_url }}">学习资料</a></p>
+          <p><a href="{{ '/writeups/' | relative_url }}">实战记录</a></p>
+        </div>
+        <div>
+          <h3>联系</h3>
+          <p><a href="{{ site.github.repository_url }}">GitHub</a></p>
+          <p><a href="{{ site.github.repository_url }}/issues">Issues</a></p>
+          <p><a href="{{ site.github.repository_url }}/pulls">Pull Requests</a></p>
+          <p><a href="mailto:chinagreatsec@outlook.com">chinagreatsec@outlook.com</a></p>
+        </div>
+      </div>
+      <div class="container footer-bottom">© 2026 OOB IoT Sec Labs</div>
+    </footer>
   </body>
 </html>

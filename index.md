@@ -1,81 +1,77 @@
-﻿---
+---
 layout: default
 title: 首页
 permalink: /
 ---
 
-<div align="center">
-<h1>🔐 OOB IoT Sec Labs</h1>
-<p>
-  <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/blob/main/LICENSE"><img src="https://img.shields.io/github/license/oob-iot-sec-labs/oob-iot-sec-labs.github.io" alt="License"></a>
-  <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/stargazers"><img src="https://img.shields.io/github/stars/oob-iot-sec-labs/oob-iot-sec-labs.github.io" alt="Stars"></a>
-  <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg" alt="Contributions Welcome"></a>
-</p>
-</div>
+<section class="home-hero">
+  <p class="kicker">Out of the Box IoT Security Research</p>
+  <h1>面向物联网、硬件与二进制安全研究的开放实验室</h1>
+  <p class="hero-copy">OOB IoT Sec Labs 聚焦嵌入式系统、智能基础设施与 IoT 设备安全，融合高级二进制分析、AI 赋能自动化和安全工具自研，从第一性原理出发解构真实设备与复杂防御系统。</p>
+  <p class="hero-quote">“如果思维有边界，那就溢出它。”</p>
+  <p class="hero-badges">
+    <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/blob/main/LICENSE"><img src="https://img.shields.io/github/license/oob-iot-sec-labs/oob-iot-sec-labs.github.io" alt="License"></a>
+    <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/stargazers"><img src="https://img.shields.io/github/stars/oob-iot-sec-labs/oob-iot-sec-labs.github.io" alt="Stars"></a>
+    <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg" alt="Contributions Welcome"></a>
+  </p>
+</section>
 
----
+<h2>模块导航</h2>
 
-
-<blockquote><code>// 专注于 IOT 设备安全研究、漏洞挖掘与防御的开放社区</code></blockquote>
-
-<h2>🧭 模块导航</h2>
-
-<div style="display:flex; flex-wrap:wrap; gap:16px; margin:24px 0;">
-  <div style="flex:1; min-width:200px; border:1px solid #444; border-radius:8px; padding:20px; background:#111;">
-    <h3>🐛 漏洞研究</h3>
-    <p>CVE 漏洞分析、原创漏洞研究</p>
-    <a href="{{ '/vulnerabilities/' | relative_url }}">→ 进入模块</a>
+<div class="home-grid">
+  <div class="home-card">
+    <h3>漏洞研究</h3>
+    <p>CVE 分析、原创漏洞研究、设备安全与高价值未知漏洞挖掘。</p>
+    <a href="{{ '/vulnerabilities/' | relative_url }}">进入模块 →</a>
   </div>
-  <div style="flex:1; min-width:200px; border:1px solid #444; border-radius:8px; padding:20px; background:#111;">
-    <h3>🔧 安全工具</h3>
-    <p>固件分析、网络扫描、漏洞利用、防御加固</p>
-    <a href="{{ '/tools/' | relative_url }}">→ 进入模块</a>
+  <div class="home-card">
+    <h3>安全工具</h3>
+    <p>固件分析、网络扫描、漏洞利用辅助与防御加固工具。</p>
+    <a href="{{ '/tools/' | relative_url }}">进入模块 →</a>
   </div>
-  <div style="flex:1; min-width:200px; border:1px solid #444; border-radius:8px; padding:20px; background:#111;">
-    <h3>📚 学习资料</h3>
-    <p>书籍推荐、学术论文、课程资源</p>
-    <a href="{{ '/resources/' | relative_url }}">→ 进入模块</a>
+  <div class="home-card">
+    <h3>学习资料</h3>
+    <p>书籍、论文、课程资源与面向 IoT 安全研究的学习路线。</p>
+    <a href="{{ '/resources/' | relative_url }}">进入模块 →</a>
   </div>
-  <div style="flex:1; min-width:200px; border:1px solid #444; border-radius:8px; padding:20px; background:#111;">
-    <h3>📝 实战记录</h3>
-    <p>CTF Writeup 与真实漏洞复现记录</p>
-    <a href="{{ '/writeups/' | relative_url }}">→ 进入模块</a>
+  <div class="home-card">
+    <h3>实战记录</h3>
+    <p>CTF Writeup、真实漏洞复现、调试记录与工程化实践。</p>
+    <a href="{{ '/writeups/' | relative_url }}">进入模块 →</a>
   </div>
 </div>
 
-<h2>📖 关于我们</h2>
-<p>OOB IoT Sec Labs 是一个面向 IOT 网络安全研究者的开放社区，涵盖漏洞研究、安全工具、学习资料及实战 Writeup，致力于推动 IOT 安全领域的知识共享与技术交流。</p>
+<h2>关于我们</h2>
+<p>OOB IoT Sec Labs 是一个面向 IoT 网络安全研究者的开放社区，涵盖漏洞研究、安全工具、学习资料及实战 Writeup，致力于推动 IoT 安全领域的知识共享与技术交流。</p>
 
-<blockquote><code>“如果思维有边界，那就溢出它。”</code></blockquote>
+<p>我们拒绝流水线式复刻，致力于培养具备独立思考能力、能够打破规则、重构技术直觉的创造性安全研究员。我们的主战场是广阔的物联网与智能连接设备生态，但方法论原生融合二进制分析、人工智能赋能以及安全工具自研开发。</p>
 
-<p>我们关注嵌入式系统、智能基础设施与物联网设备安全，拒绝流水线式复刻，致力于培养具备独立思考能力、能够打破规则、重构技术直觉的创造性安全研究员。我们的研究方法融合高级二进制分析、AI 赋能自动化与安全工具自研开发，从第一性原理出发解构防御系统。</p>
+<h2>研究与培训方向</h2>
 
-<h2>🏗️ 研究与培训方向</h2>
-
-<div style="display:flex; flex-wrap:wrap; gap:16px; margin:24px 0;">
-  <div style="flex:1; min-width:220px; border:1px solid #444; border-radius:8px; padding:20px; background:#111;">
-    <h3>⚡ 物联网与硬件安全</h3>
+<div class="research-grid">
+  <div class="home-card">
+    <h3>物联网与硬件安全</h3>
     <p>深入 JTAG/UART、侧信道分析、故障注入与安全启动绕过等底层攻防场景。</p>
   </div>
-  <div style="flex:1; min-width:220px; border:1px solid #444; border-radius:8px; padding:20px; background:#111;">
-    <h3>🎯 高级二进制分析</h3>
+  <div class="home-card">
+    <h3>高级二进制分析</h3>
     <p>结合静态分析、动态调试与 Fuzzer，自主发现高价值未知漏洞。</p>
   </div>
-  <div style="flex:1; min-width:220px; border:1px solid #444; border-radius:8px; padding:20px; background:#111;">
-    <h3>🤖 AI 赋能安全研究</h3>
+  <div class="home-card">
+    <h3>AI 赋能安全研究</h3>
     <p>利用 AI、符号执行与自动化框架探索深层代码路径和复杂逻辑缺陷。</p>
   </div>
-  <div style="flex:1; min-width:220px; border:1px solid #444; border-radius:8px; padding:20px; background:#111;">
-    <h3>🛠️ 安全开发与工程化</h3>
+  <div class="home-card">
+    <h3>安全开发与工程化</h3>
     <p>构建定制化 Fuzzer、固件分析流水线与高稳定性漏洞利用编排脚本。</p>
   </div>
 </div>
 
-<h2>🎯 我们在寻找这样的你</h2>
+<h2>我们在寻找这样的你</h2>
 <p>如果你渴望突破传统 Web 或网络检查清单的边界，愿意深入二进制、硬件与 AI 自动化的交汇地带，系统化拆解真实设备与复杂系统，欢迎加入 OOB IoT Sec Labs。</p>
 
-<h2>🤝 参与贡献</h2>
-<p>有知识帖想分享？漏洞复现、学习笔记、技术分享、疑问求助……。欢迎发送至<a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/issues/new?template=vulnerability.yml">chinagreatsec@outlook.com</a> 提交。</p><p>同时欢迎提交 <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/issues">Issue</a> 或 <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/pulls">Pull Request</a>！详见 <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/blob/main/CONTRIBUTING.md">贡献指南</a>。</p>
+<h2>参与贡献</h2>
+<p>有知识帖想分享？漏洞复现、学习笔记、技术分享、疑问求助……欢迎发送至 <a href="mailto:chinagreatsec@outlook.com">chinagreatsec@outlook.com</a> 提交。同时欢迎提交 <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/issues">Issue</a> 或 <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/pulls">Pull Request</a>。详见 <a href="https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io/blob/main/CONTRIBUTING.md">贡献指南</a>。</p>
 
-<h2>⚠️ 免责声明</h2>
+<h2>免责声明</h2>
 <p>本站内容仅用于安全研究与教育目的，请勿用于非法用途。</p>
