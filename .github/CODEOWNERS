@@ -1,0 +1,28 @@
+# OOB IoT Sec Labs ownership rules
+#
+# ChinaGreat-IoTSec is responsible for the site framework, publishing quality,
+# GitHub Pages configuration, visual style, and final review.
+
+* @ChinaGreat-IoTSec
+
+# Site framework and governance files
+/_config.yml @ChinaGreat-IoTSec
+/_layouts/ @ChinaGreat-IoTSec
+/_includes/ @ChinaGreat-IoTSec
+/assets/css/ @ChinaGreat-IoTSec
+/.github/ @ChinaGreat-IoTSec
+/README.md @ChinaGreat-IoTSec
+/CONTRIBUTING.md @ChinaGreat-IoTSec
+/docs/site-context.md @ChinaGreat-IoTSec
+/favicon.ico @ChinaGreat-IoTSec
+
+# Content modules currently require owner review.
+# These can be split to GitHub Teams later, for example:
+# /vulnerabilities/ @oob-iot-sec-labs/vulnerability-reviewers
+# /tools/ @oob-iot-sec-labs/tool-reviewers
+# /resources/ @oob-iot-sec-labs/resource-reviewers
+# /writeups/ @oob-iot-sec-labs/writeup-reviewers
+/vulnerabilities/ @ChinaGreat-IoTSec
+/tools/ @ChinaGreat-IoTSec
+/resources/ @ChinaGreat-IoTSec
+/writeups/ @ChinaGreat-IoTSec

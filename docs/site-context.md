@@ -182,6 +182,15 @@ permalink: /vulnerabilities/CVE/CVE-XXXX-XXXXX/
 
 ## 协作工作流
 
+仓库 Owner：`@ChinaGreat-IoTSec`。
+
+协作原则：
+- Owner 负责站点整体框架、GitHub Pages/Jekyll 配置、布局样式、Logo、favicon、贡献规范与最终合并。
+- 其他成员主要通过 Pull Request 贡献 `vulnerabilities/`、`tools/`、`resources/`、`writeups/` 等子模块内容。
+- 内容 PR 不应混入 `_config.yml`、`_layouts/`、`_includes/`、`assets/css/`、`.github/`、`README.md`、`CONTRIBUTING.md`、`docs/site-context.md` 等框架或治理文件修改。
+- 仓库使用 `.github/CODEOWNERS` 指定审核负责人；当前所有路径均由 `@ChinaGreat-IoTSec` 审核，后续可拆分为 GitHub Team。
+- 建议 `main` 分支开启保护：禁止直接 push，要求 PR、Code Owner review、至少 1 个 approval、禁止 force push。
+
 ### 分支命名规范
 ```
 vuln/CVE-XXXX-XXXXX     漏洞文章
@@ -216,14 +225,15 @@ docs: 更新 CONTRIBUTING.md
 ```
 
 ### 责任分工建议
-| 成员 | 负责目录 | 不要随意修改 |
+| 成员类型 | 主要负责 | 不要随意修改 |
 |------|----------|-------------|
-| 漏洞研究 | `vulnerabilities/` `assets/images/` | `assets/css/style.scss` |
-| 安全工具 | `tools/` | `_config.yml` |
-| 学习资料 | `resources/` | `_includes/` |
-| 样式/架构 | `assets/css/` `_config.yml` `_includes/` | — |
+| Owner | 站点框架、配置、样式、治理文件、最终合并 | — |
+| 漏洞研究贡献者 | `vulnerabilities/`、相关 `assets/images/` | `_config.yml`、`_layouts/`、`assets/css/`、`.github/` |
+| 安全工具贡献者 | `tools/`、相关 `assets/images/` | `_config.yml`、`_layouts/`、`assets/css/`、`.github/` |
+| 学习资料贡献者 | `resources/` | `_config.yml`、`_includes/`、`assets/css/`、`.github/` |
+| Writeup 贡献者 | `writeups/`、相关 `assets/images/` | `_config.yml`、`_layouts/`、`assets/css/`、`.github/` |
 
-> `assets/css/style.scss` 和 `_config.yml` 是全局文件，修改前请在 PR 中说明原因。
+> 全局文件修改必须在 PR 描述中说明原因、影响范围和验证方式。
 
 ---
 
