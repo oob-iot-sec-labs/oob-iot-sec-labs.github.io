@@ -140,6 +140,8 @@ fix: correct CVE index link
 - 新增文章后同步更新对应索引页
 - 内容必须用于安全研究与教育目的
 
+技术文章投稿必须参考 [`docs/technical-article-template.md`](docs/technical-article-template.md)。维护者会先进行文章规范化检查，确认结构、元数据、图片、引用和安全边界符合要求后，再提交或合并。
+
 ---
 
 ## 添加漏洞文章后的必要更新
@@ -157,6 +159,7 @@ fix: correct CVE index link
 
 - [ ] 修改范围符合权限边界
 - [ ] 内容准确，术语和格式一致
+- [ ] 技术文章已通过 [`docs/technical-article-template.md`](docs/technical-article-template.md) 中的规范化检查清单
 - [ ] 未混入无关样式、配置或框架修改
 - [ ] 图片已放入 `assets/images/` 对应目录
 - [ ] 链接格式正确

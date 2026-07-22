@@ -138,13 +138,23 @@ permalink: /path/to/page/
 
 ## 漏洞文章模板
 
-新建漏洞文章路径：`vulnerabilities/CVE/CVE-XXXX-XXXXX/index.md`
+新建漏洞文章路径：`vulnerabilities/CVE/CVE-XXXX-XXXXX/index.md`。
+
+技术文章以当前 `CVE-2022-42475` 文章结构为基准，完整模板和规范化检查清单见 `docs/technical-article-template.md`。后续投稿文章必须先完成规范化检查，确认结构、元数据、图片引用、参考资料和安全边界符合要求后再提交。
 
 ```markdown
 ---
 layout: default
 title: "CVE-XXXX-XXXXX | 设备名 漏洞类型简述"
 permalink: /vulnerabilities/CVE/CVE-XXXX-XXXXX/
+category: vulnerability
+tags:
+  - IoT
+  - CVE
+vendor: Vendor
+product: Product
+author: GitHubUsername
+date: YYYY-MM-DD
 ---
 
 # CVE-XXXX-XXXXX — 设备名 漏洞类型 Pre-auth RCE
@@ -157,16 +167,28 @@ permalink: /vulnerabilities/CVE/CVE-XXXX-XXXXX/
 
 ---
 
-## 漏洞概述
+## 摘要
 ...
 
-## 环境搭建
+## 基本信息
+...
+
+## 影响范围
+...
+
+## 研究环境与准备
 ...
 
 ## 漏洞分析
 ...
 
-## 利用过程
+## 利用思路与验证
+...
+
+## 修复建议
+...
+
+## 参考资料
 ...
 
 > **免责声明**：本文仅用于安全研究与教育目的。请勿将上述技术用于未经授权的系统。
