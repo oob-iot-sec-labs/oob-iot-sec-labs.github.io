@@ -207,6 +207,38 @@ tr:hover td { background: rgba(255,138,31,0.055); }
   text-shadow: 0 0 8px var(--accent) !important;
 }
 
+/* 技术文章全局浮动返回导航 */
+.article-back-nav {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 50;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  padding: 0 16px;
+  border: 1px solid rgba(255,138,31,0.55);
+  border-radius: 999px;
+  background: rgba(7, 9, 13, 0.88);
+  color: var(--accent) !important;
+  font-size: 0.9em;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-decoration: none !important;
+  text-shadow: none !important;
+  box-shadow: 0 0 18px rgba(255,138,31,0.22), inset 0 0 18px rgba(255,138,31,0.06);
+  backdrop-filter: blur(8px);
+  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+  white-space: nowrap;
+}
+
+.article-back-nav:hover {
+  background: rgba(255,138,31,0.18);
+  box-shadow: 0 0 24px rgba(255,138,31,0.36), inset 0 0 20px rgba(255,138,31,0.08);
+  transform: translateY(-2px);
+}
+
 /* 页眉 */
 header {
   border-bottom: 1px solid var(--border);
@@ -356,5 +388,13 @@ header h2 {
 
   .footer-grid {
     grid-template-columns: 1fr;
+  }
+
+  .article-back-nav {
+    right: 14px;
+    bottom: 14px;
+    min-height: 34px;
+    padding: 0 12px;
+    font-size: 0.82em;
   }
 }

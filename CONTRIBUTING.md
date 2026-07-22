@@ -134,7 +134,7 @@ fix: correct CVE index link
 
 - 页面必须包含 Jekyll Front Matter
 - 链接优先使用 `{{ '/path/' | relative_url }}`
-- 返回按钮使用文字，例如“返回首页”“返回漏洞研究”
+- 技术文章不手写返回按钮，返回导航由全局布局自动生成
 - 标题不使用装饰性 emoji
 - 图片放入 `assets/images/` 对应目录，不依赖外部图床
 - 新增文章后同步更新对应索引页

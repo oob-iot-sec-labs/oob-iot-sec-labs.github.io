@@ -57,7 +57,8 @@ markdown: kramdown
 ### 组件规范
 ```scss
 /* 返回按钮 */
-.back-home   /* 使用文字，如“返回首页”“返回漏洞研究” */
+.back-home   /* 模块页面使用文字，如“返回首页”“返回漏洞研究” */
+.article-back-nav /* 技术文章由全局布局自动生成浮动返回导航 */
 
 /* 卡片样式（用 inline style 触发 CSS 选择器） */
 style="border:1px solid #444"  /* → SCSS 会自动添加发光效果 */
@@ -192,9 +193,9 @@ date: YYYY-MM-DD
 ...
 
 > **免责声明**：本文仅用于安全研究与教育目的。请勿将上述技术用于未经授权的系统。
-
-<a href="{{ '/vulnerabilities/CVE/' | relative_url }}" class="back-home" title="返回 CVE 列表">返回 CVE 列表</a>
 ```
+
+技术文章返回导航由全局布局自动生成，文章内不要手写返回按钮。
 
 **添加完文章后记得更新：**
 1. `vulnerabilities/CVE/index.md` — 在统计表和列表中添加新条目

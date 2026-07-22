@@ -43,6 +43,10 @@
       </section>
     </div>
 
+    {% if page.category == "vulnerability" and page.url contains "/vulnerabilities/CVE/" %}
+      <a href="{{ '/vulnerabilities/CVE/' | relative_url }}" class="article-back-nav" title="返回 CVE 列表">返回 CVE 列表</a>
+    {% endif %}
+
     <footer class="site-footer">
       <div class="container footer-grid">
         <div>
