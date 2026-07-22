@@ -78,7 +78,7 @@ oob-iot-sec-labs.github.io/
 
 ## 站点 | Website
 
-GitHub Pages: <https://oob-iot-sec-labs.github.io>
+GitHub Pages: <https://oobsec.cn>
 
 ---
 

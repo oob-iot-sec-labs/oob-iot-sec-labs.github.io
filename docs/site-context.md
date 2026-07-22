@@ -9,7 +9,7 @@
 
 | 字段 | 值 |
 |------|----|
-| 网址 | https://oob-iot-sec-labs.github.io/ |
+| 网址 | https://oobsec.cn/ |
 | 仓库 | https://github.com/oob-iot-sec-labs/oob-iot-sec-labs.github.io |
 | 本地路径 | `C:\github\oob-iot-sec-labs.github.io\` |
 | 技术栈 | Jekyll + jekyll-theme-hacker |
@@ -23,7 +23,7 @@
 ```yaml
 title: "OOB IoT Sec Labs"
 description: "IoT 网络安全社区"
-url: "https://oob-iot-sec-labs.github.io"
+url: "https://oobsec.cn"
 baseurl: ""          # 组织 Pages，baseurl 为空
 theme: jekyll-theme-hacker
 markdown: kramdown
