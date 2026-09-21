@@ -3,36 +3,28 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{% assign pages = site.pages | where_exp: "p", "p.url != nil" | where_exp: "p", "p.url != '/404.html'" | where_exp: "p", "p.url != '/assets/css/style.css'" %}
-{% assign sections = pages | where_exp: "p", "p.url == '/' or p.url == '/tools/' or p.url == '/resources/' or p.url == '/writeups/' or p.url == '/vulnerabilities/' or p.url == '/vulnerabilities/research/' or p.url == '/vulnerabilities/CVE/' or p.url == '/vulnerabilities/vendor-labs/' or p.url == '/vulnerabilities/vendor-labs/citrix/' or p.url == '/vulnerabilities/vendor-labs/fortinet/'" | sort: "url" %}
-{% assign articles = pages | where_exp: "p", "p.category == 'vulnerability'" | sort: "date" | reverse %}
-{% assign other = pages | where_exp: "p", "p.category != 'vulnerability' and p.url != '/' and p.url != '/tools/' and p.url != '/resources/' and p.url != '/writeups/' and p.url != '/vulnerabilities/' and p.url != '/vulnerabilities/research/' and p.url != '/vulnerabilities/CVE/' and p.url != '/vulnerabilities/vendor-labs/' and p.url != '/vulnerabilities/vendor-labs/citrix/' and p.url != '/vulnerabilities/vendor-labs/fortinet/'" | sort: "url" %}
-
-  <!-- 固定页面 -->
-{% for page in sections %}
+{% comment %} 固定分区页面（手动列出，避免 where_exp）{% endcomment %}
+{% assign fixed_urls = "/,/,1.0,weekly|/tools/,/tools/,0.6,weekly|/resources/,/resources/,0.6,weekly|/writeups/,/writeups/,0.6,weekly|/vulnerabilities/,/vulnerabilities/,0.8,weekly|/vulnerabilities/research/,/vulnerabilities/research/,0.8,weekly|/vulnerabilities/CVE/,/vulnerabilities/CVE/,0.8,weekly|/vulnerabilities/vendor-labs/,/vulnerabilities/vendor-labs/,0.8,weekly|/vulnerabilities/vendor-labs/citrix/,/vulnerabilities/vendor-labs/citrix/,0.8,weekly|/vulnerabilities/vendor-labs/fortinet/,/vulnerabilities/vendor-labs/fortinet/,0.8,weekly" | split: "|" %}
+{% assign fixed_count = fixed_urls.size | divided_by: 4 | minus: 1 %}
+{% for i in (0..fixed_count) %}
+  {% assign idx = i | times: 4 %}
   <url>
-    <loc>{{ page.url | absolute_url }}</loc>
-    <changefreq>weekly</changefreq>
-    <priority>{% if page.url == '/' %}1.0{% elsif page.url contains '/vulnerabilities/' %}0.8{% else %}0.6{% endif %}</priority>
+    <loc>{{ fixed_urls[idx] | absolute_url }}</loc>
+    <changefreq>{{ fixed_urls[idx | plus: 3] }}</changefreq>
+    <priority>{{ fixed_urls[idx | plus: 2] }}</priority>
   </url>
 {% endfor %}
 
-  <!-- 技术文章 -->
-{% for page in articles %}
+{% comment %} 技术文章（category: vulnerability）- 手动列出 {% endcomment %}
+{% assign article_urls = "/vulnerabilities/CVE/CVE-2022-42475/,2026-07-21|/vulnerabilities/CVE/CVE-2026-8452/,2026-09-20|/vulnerabilities/vendor-labs/citrix/environment-setup/,2026-08-21|/vulnerabilities/vendor-labs/citrix/debugging/,2026-09-20" | split: "|" %}
+{% assign art_count = article_urls.size | divided_by: 2 | minus: 1 %}
+{% for i in (0..art_count) %}
+  {% assign idx = i | times: 2 %}
   <url>
-    <loc>{{ page.url | absolute_url }}</loc>
-    <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
+    <loc>{{ article_urls[idx] | absolute_url }}</loc>
+    <lastmod>{{ article_urls[idx | plus: 1] }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-  </url>
-{% endfor %}
-
-  <!-- 其他页面 -->
-{% for page in other %}
-  <url>
-    <loc>{{ page.url | absolute_url }}</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
   </url>
 {% endfor %}
 </urlset>
