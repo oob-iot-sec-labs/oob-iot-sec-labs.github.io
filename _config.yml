@@ -1,7 +1,10 @@
 title: "OOB IoT Sec Labs"
 description: "IoT 网络安全社区"
-url: "https://oobsec.cn"
+url: "https://www.oobsec.cn"
 baseurl: ""
 theme: jekyll-theme-hacker
+
+plugins:
+  - jekyll-sitemap
 
 markdown: kramdown
