@@ -8,6 +8,15 @@ permalink: /tools/
 <h1>安全工具</h1>
 <p>收录 IoT 安全研究常用工具，涵盖固件分析、网络扫描、漏洞利用与防御加固。</p>
 
+<h2>自研工具</h2>
+
+<div class="home-card">
+  <h3>OOB Beyond（无界）</h3>
+  <p>AI 辅助的多 Agent IoT 固件安全审计框架，串联固件解包、目标筛选、Ghidra 静态分析与报告生成，支持固件镜像、已解包目录和二进制文件。</p>
+  <p><strong>内测阶段 · 0.1.0-beta.1</strong> · 分析结果需人工复核。</p>
+  <p><a href="{{ '/tools/oob-beyond/' | relative_url }}">了解工具 →</a> · <a href="https://github.com/oob-iot-sec-labs/OOB-Beyond">GitHub 仓库 →</a></p>
+</div>
+
 <h2>工具分类</h2>
 
 <h3><a href="firmware-analysis/">固件分析</a></h3>

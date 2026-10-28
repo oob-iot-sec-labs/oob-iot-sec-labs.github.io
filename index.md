@@ -41,6 +41,13 @@ permalink: /
   </div>
 </div>
 
+<h2>自研工具</h2>
+<div class="home-card">
+  <h3>自研工具 · OOB Beyond（无界）</h3>
+  <p>AI 辅助的多 Agent IoT 固件安全审计框架，连接固件解包、二进制静态分析与报告生成。当前处于内测阶段。</p>
+  <p><a href="{{ '/tools/oob-beyond/' | relative_url }}">了解工具 →</a> · <a href="https://github.com/oob-iot-sec-labs/OOB-Beyond">GitHub 仓库 →</a></p>
+</div>
+
 <h2>关于我们</h2>
 <p>OOB IoT Sec Labs 是一个面向 IoT 网络安全研究者的开放社区，涵盖漏洞研究、安全工具、学习资料及实战 Writeup，致力于推动 IoT 安全领域的知识共享与技术交流。</p>
 
